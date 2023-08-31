@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.col{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.card img{
+    float: left;
+    width: 30%;
+}
+
+.card p{
+    text-align: left;
+    padding-left: 32%;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*STYLE AND COLOURS*/
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    color: #E42A70;
+    line-height: 2em;
+}
+
+.card{
+    color: white;
+    background-color: #0F0E17;
+    font-size: 14px;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px black;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.email{
+    color: #2AA4ED;
+}
+
+footer{
+    color: white;
+    background-color: #222222;
+}
+
+/* --- DEBUG --- */
+
+.debug .container{
+    border: 3px solid red;
+}
+
+.debug .col{
+    border: 2px solid blue;
+}
+
+.debug .card{
+    border: 2px solid green;
+}
